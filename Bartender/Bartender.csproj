@@ -190,7 +190,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="img\Classic Martini.jpg" />
+    <Content Include="img\ClassicMartini.jpg" />
     <Content Include="Models\BarModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>BarModel.Context.cs</LastGenOutput>
