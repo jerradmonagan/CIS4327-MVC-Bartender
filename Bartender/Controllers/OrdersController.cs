@@ -54,7 +54,7 @@ namespace Bartender.Controllers
             {
                 db.Orders.Add(order);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return View("~/Views/Home/Index.cshtml");
             }
 
             ViewBag.Drink_Id = new SelectList(db.Menus, "Drink_Id", "Drink_Name", order.Drink_Id);
