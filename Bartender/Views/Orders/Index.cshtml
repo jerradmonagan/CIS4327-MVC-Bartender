@@ -32,7 +32,7 @@
                 @Html.DisplayFor(modelItem => item.Order_Id)
             </td>
             <td>
-                @Html.ActionLink("Delete", "Delete", new { id = item.Order_Id })
+                @Html.ActionLink("Complete", "Delete", new { id = item.Order_Id })
             </td>
             <td>
                 <img src="@Url.Content(@item.Menu.Drink_Img_Link)" alt="@item.Menu.Drink_Name" height="100" />
