@@ -16,24 +16,28 @@
         <th>
             @Html.DisplayNameFor(model => model.Order_Id)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Menu.Drink_Img_Link)
+        </th>
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Menu.Drink_Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Order_Id)
-        </td>
-        <td>
-            @Html.ActionLink("Delete", "Delete", new { id=item.Order_Id })
-        </td>
-        <td>
-            <img src=(modelItem => item.Menu.D") />
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Menu.Drink_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Order_Id)
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { id = item.Order_Id })
+            </td>
+            <td>
+                <img src="@Url.Content(@item.Menu.Drink_Img_Link)" alt="@item.Menu.Drink_Name" height="100" />
+            </td>
+        </tr>
+    }
 
 </table>
