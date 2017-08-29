@@ -15,7 +15,7 @@ namespace Bartender.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Why this application was created";
 
             return View();
         }
