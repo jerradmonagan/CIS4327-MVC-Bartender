@@ -190,7 +190,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="img\Classic Martini.jpg" />
+    <Content Include="img\Beer.jpg" />
+    <Content Include="img\ClassicMartini.jpg" />
+    <Content Include="img\GinandTonic.jpg" />
+    <Content Include="img\Manhattan.jpg" />
+    <Content Include="img\Margarita.jpg" />
+    <Content Include="img\MoscowMule.jpg" />
+    <Content Include="img\OldFashioned.jpg" />
+    <Content Include="img\ScotchNeat.jpg" />
+    <Content Include="img\Wine.jpg" />
     <Content Include="Models\BarModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>BarModel.Context.cs</LastGenOutput>
